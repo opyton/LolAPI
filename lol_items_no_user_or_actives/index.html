@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lol Max Damage General</title>
+    <script type="text/javascript" src="data_retrieval.js"></script>
+    <script type="text/javascript" src="user_input.js"></script>
+    <script type="text/javascript" src="calculations.js"></script>
+</head>
+
+<body onload="get_item_data(),get_champion_data()">
+<body>
+
+	<label>Champion</label>
+	<input type="text" name="champName" id="champName">
+
+	<button onclick="get_user_specific_champ(),populate_variables_by_level()">Calculate</button> 
+	
+</body>
+</html>
